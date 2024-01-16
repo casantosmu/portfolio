@@ -11,7 +11,11 @@
     {
       "files": ["**/*.test.ts"],
       "plugins": ["vitest"],
-      "extends": ["plugin:vitest/recommended"]
+      "extends": ["plugin:vitest/recommended"],
+      "rules": {
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/no-empty-function": "off"
+      }
     }
   ],
   "plugins": ["@typescript-eslint"],
