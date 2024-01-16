@@ -1,0 +1,9 @@
+node_modules/
+dist/
+
+# very important
+/**/.env*.local
+/**/.env
+
+# coverage
+coverage/
