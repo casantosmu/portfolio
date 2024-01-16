@@ -16,6 +16,9 @@
     "lint:fix": "eslint --fix . && prettier . --write",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "pino": "^8.17.2"
+  },
   "devDependencies": {
     "@types/node": "^20.8.9",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
