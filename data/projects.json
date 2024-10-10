@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Weather App",
+    "description": "A simple app to display current weather conditions for any location.",
+    "img": "https://via.placeholder.com/600x400",
+    "codeLink": "https://github.com/user/weather-app",
+    "demoLink": "https://demo.com/weather-app",
+    "tags": ["Go", "API", "Weather", "Frontend"]
+  },
+  {
+    "title": "ChatGPT Clone",
+    "description": "A chatbot built using natural language processing libraries.",
+    "img": "https://via.placeholder.com/600x400",
+    "codeLink": "https://github.com/user/chatgpt-clone",
+    "demoLink": "https://demo.com/chatgpt-clone",
+    "tags": ["Go", "Machine Learning", "NLP", "AI"]
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A personal website to showcase projects and skills.",
+    "img": "https://via.placeholder.com/600x400",
+    "codeLink": "https://github.com/user/portfolio",
+    "demoLink": "https://demo.com/portfolio",
+    "tags": ["Go", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "E-commerce Platform",
+    "description": "A full-stack application for managing an online store.",
+    "img": "https://via.placeholder.com/600x400",
+    "codeLink": "https://github.com/user/ecommerce",
+    "demoLink": "https://demo.com/ecommerce",
+    "tags": ["Go", "Backend", "PostgreSQL", "Microservices"]
+  },
+  {
+    "title": "Task Manager",
+    "description": "A web app to manage tasks and projects for personal productivity.",
+    "img": "https://via.placeholder.com/600x400",
+    "codeLink": "https://github.com/user/task-manager",
+    "demoLink": "https://demo.com/task-manager",
+    "tags": ["Go", "React", "REST API", "Productivity"]
+  }
+]
