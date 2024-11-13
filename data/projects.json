@@ -1,42 +1,34 @@
 [
   {
-    "title": "Weather App",
-    "description": "A simple app to display current weather conditions for any location.",
-    "img": "https://via.placeholder.com/600x400",
-    "codeLink": "https://github.com/user/weather-app",
-    "demoLink": "https://demo.com/weather-app",
-    "tags": ["Go", "API", "Weather", "Frontend"]
+    "title": "Metal Tracker",
+    "description": "A script that scrapes websites for metal concert info in Barcelona and sends daily email updates. Runs on a Linux server with SQLite for tracking sent emails. I'm particularly proud of the integration testing suite!",
+    "img": "images/metal-tracker.webp",
+    "codeLink": "https://github.com/casantosmu/metal-tracker",
+    "demoLink": "https://github.com/casantosmu/metal-tracker/pkgs/container/metal-tracker",
+    "tags": ["Docker", "Testing", "Typescript", "SQLite", "CI/CD", "Testing"]
   },
   {
-    "title": "ChatGPT Clone",
-    "description": "A chatbot built using natural language processing libraries.",
-    "img": "https://via.placeholder.com/600x400",
-    "codeLink": "https://github.com/user/chatgpt-clone",
-    "demoLink": "https://demo.com/chatgpt-clone",
-    "tags": ["Go", "Machine Learning", "NLP", "AI"]
+    "title": "Dotfiles",
+    "description": "My personal setup for all my development environments. Includes Zsh, custom functions, and backup scripts. Because why not automate everything?",
+    "img": "images/dotfiles.webp",
+    "codeLink": "https://github.com/casantosmu/dotfiles",
+    "demoLink": "",
+    "tags": ["Linux", "Zsh", "Shell", "Bash", "Automation"]
   },
   {
-    "title": "Portfolio Website",
-    "description": "A personal website to showcase projects and skills.",
-    "img": "https://via.placeholder.com/600x400",
-    "codeLink": "https://github.com/user/portfolio",
-    "demoLink": "https://demo.com/portfolio",
-    "tags": ["Go", "HTML", "CSS", "JavaScript"]
+    "title": "Code Notes",
+    "description": "A curated collection of programming insights and practical tips. It's my go-to for remembering terminal commands and best practices. Built with MkDocs.",
+    "img": "images/code-notes.webp",
+    "codeLink": "https://github.com/casantosmu/code-notes",
+    "demoLink": "https://code-notes.casantosmu.com",
+    "tags": ["Docs", "Docker", "CI/CD", "Linux"]
   },
   {
-    "title": "E-commerce Platform",
-    "description": "A full-stack application for managing an online store.",
-    "img": "https://via.placeholder.com/600x400",
-    "codeLink": "https://github.com/user/ecommerce",
-    "demoLink": "https://demo.com/ecommerce",
-    "tags": ["Go", "Backend", "PostgreSQL", "Microservices"]
-  },
-  {
-    "title": "Task Manager",
-    "description": "A web app to manage tasks and projects for personal productivity.",
-    "img": "https://via.placeholder.com/600x400",
-    "codeLink": "https://github.com/user/task-manager",
-    "demoLink": "https://demo.com/task-manager",
-    "tags": ["Go", "React", "REST API", "Productivity"]
+    "title": "Portfolio",
+    "description": "You're looking at it! My personal portfolio to showcase projects. Built from scratch using Go and minimal HTML/CSS. It's all about keeping things simple and effective!",
+    "img": "images/portfolio.webp",
+    "codeLink": "https://github.com/casantosmu/portfolio",
+    "demoLink": "https://casantosmu.com",
+    "tags": ["Go", "HTML", "CSS"]
   }
 ]

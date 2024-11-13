@@ -55,19 +55,20 @@
 
     <main class="main">
       <p class="about">
-        Hi, I'm Carlos 👋. Developer with a passion for creating web applications
-        that make a difference. With experience in TypeScript, React, and
-        Node.js, I enjoy turning complex problems into simple solutions. When
-        I'm not coding, I love exploring new technologies and staying updated
-        with industry trends. I'm always eager to take on new challenges and
-        collaborate on exciting projects.
+        Hi, I'm Carlos 👋. Developer with a passion for creating web
+        applications that make a difference. With experience in TypeScript,
+        React, and Node.js, I enjoy turning complex problems into simple
+        solutions. When I'm not coding, I love exploring new technologies and
+        staying updated with industry trends.
       </p>
 
       <h2 class="projects-title">Projects</h2>
       <ul class="projects">
         {{range .Projects}}
           <li class="project">
-            <img src="{{.Img}}" alt="{{.Title}}" width="600" height="400" />
+            <a href="{{.CodeLink}}" target="_blank" rel="noopener">
+              <img src="{{.Img}}" alt="{{.Title}}" class="project-image" width="600" height="400" />
+            </a>
             <h3 class="project-title">{{.Title}}</h3>
             <p>{{.Description}}</p>
             <ul class="project-tags">
@@ -76,8 +77,12 @@
               {{end}}
             </ul>
             <ul class="project-links">
-              <li><a href="{{.CodeLink}}">Code</a></li>
-              <li><a href="{{.DemoLink}}">Live Demo</a></li>
+              <li><a href="{{.CodeLink}}" target="_blank" rel="noopener">Code</a></li>
+              {{if .DemoLink}}
+                <li><a href="{{.DemoLink}}" target="_blank" rel="noopener">Live Demo</a></li>
+              {{else}}
+                <li><span class="disabled-link">Live Demo</span></li>
+              {{end}}
             </ul>
           </li>
         {{end}}
