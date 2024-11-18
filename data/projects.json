@@ -30,5 +30,21 @@
     "codeLink": "https://github.com/casantosmu/portfolio",
     "demoLink": "https://casantosmu.com",
     "tags": ["Go", "HTML", "CSS"]
+  },
+  {
+    "title": "Nginx Config",
+    "description": "The config that keeps my projects online! Nginx setup for serving multiple sites on an Ubuntu VPS behind Cloudflare.",
+    "img": "images/nginx.webp",
+    "codeLink": "https://github.com/casantosmu/nginx-casantosmu",
+    "demoLink": "",
+    "tags": ["Nginx", "Ubuntu", "Cloudflare", "DevOps"]
+  },
+  {
+    "title": "Home Server",
+    "description": "An Ansible playbook to automate my home server setup, including Docker, media services, and dynamic DNS with Cloudflare.",
+    "img": "images/home-server.webp",
+    "codeLink": "https://github.com/casantosmu/home-server-setup",
+    "demoLink": "",
+    "tags": ["Ansible", "Docker", "Cloudflare", "DevOps", "Automation"]
   }
 ]
