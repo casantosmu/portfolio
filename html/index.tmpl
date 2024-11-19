@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Fullstack developer with experience in TypeScript, React and Node.js." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fullstack developer with experience in TypeScript, React and Node.js.">
     <title>Carlos Santos - Fullstack Developer</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
     <header class="header">
@@ -64,22 +64,33 @@
 
       <h2 class="projects-title">Projects</h2>
       <ul class="projects">
-        {{range .Projects}}
+        {{range $index, $project := .Projects}}
           <li class="project">
-            <a href="{{.CodeLink}}" target="_blank" rel="noopener">
-              <img src="{{.Img}}" alt="{{.Title}}" class="project-image" width="600" height="400" />
+            <a
+              href="{{if $project.DemoLink}}{{$project.DemoLink}}{{else}}{{$project.CodeLink}}{{end}}" 
+              target="_blank"
+              rel="noopener"
+            >
+              <img 
+                src="{{$project.Img}}" 
+                alt="{{$project.Title}}" 
+                class="project-image" 
+                width="600" 
+                height="400"
+                {{if ge $index 2}} loading="lazy"{{end}} 
+              >
             </a>
-            <h3 class="project-title">{{.Title}}</h3>
-            <p>{{.Description}}</p>
+            <h3 class="project-title">{{$project.Title}}</h3>
+            <p>{{$project.Description}}</p>
             <ul class="project-tags">
-              {{range .Tags}}
+              {{range $project.Tags}}
                 <li>{{.}}</li>
               {{end}}
             </ul>
             <ul class="project-links">
-              <li><a href="{{.CodeLink}}" target="_blank" rel="noopener">Code</a></li>
-              {{if .DemoLink}}
-                <li><a href="{{.DemoLink}}" target="_blank" rel="noopener">Live Demo</a></li>
+              <li><a href="{{$project.CodeLink}}" target="_blank" rel="noopener">Code</a></li>
+              {{if $project.DemoLink}}
+                <li><a href="{{$project.DemoLink}}" target="_blank" rel="noopener">Live Demo</a></li>
               {{else}}
                 <li><span class="disabled-link">Live Demo</span></li>
               {{end}}

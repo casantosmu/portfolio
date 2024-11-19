@@ -1,7 +1,7 @@
 [
   {
     "title": "Metal Tracker",
-    "description": "A script that scrapes websites for metal concert info in Barcelona and sends daily email updates. Runs on a Linux server with SQLite for tracking sent emails. I'm particularly proud of the integration testing suite!",
+    "description": "A script that scrapes websites for metal concerts and reviews and sends daily email updates. Runs on a Linux server with CRON and SQLite. I'm particularly proud of the integration testing suite!",
     "img": "images/metal-tracker.webp",
     "codeLink": "https://github.com/casantosmu/metal-tracker",
     "demoLink": "https://github.com/casantosmu/metal-tracker/pkgs/container/metal-tracker",
@@ -43,7 +43,7 @@
     "title": "Home Server",
     "description": "An Ansible playbook to automate my home server setup, including Docker, media services, and dynamic DNS with Cloudflare.",
     "img": "images/home-server.webp",
-    "codeLink": "https://github.com/casantosmu/home-server-setup",
+    "codeLink": "https://github.com/casantosmu/home-server",
     "demoLink": "",
     "tags": ["Ansible", "Docker", "Cloudflare", "DevOps", "Automation"]
   }
