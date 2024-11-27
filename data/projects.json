@@ -46,5 +46,13 @@
     "codeLink": "https://github.com/casantosmu/home-server",
     "demoLink": "",
     "tags": ["Ansible", "Docker", "Cloudflare", "DevOps", "Automation"]
+  },
+  {
+    "title": "Codewars JS",
+    "description": "A collection of JavaScript challenges focused on small coding exercises called \"katas\".",
+    "img": "images/codewars-js.webp",
+    "codeLink": "https://github.com/casantosmu/codewars-js",
+    "demoLink": "https://github.com/casantosmu/codewars-js/blob/main/README.md",
+    "tags": ["JavaScript", "Katas", "Codewars", "Challenges"]
   }
 ]
