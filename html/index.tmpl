@@ -6,6 +6,7 @@
     <meta name="description" content="Fullstack developer with experience in TypeScript, React and Node.js.">
     <title>Carlos Santos - Fullstack Developer</title>
     <link rel="stylesheet" href="/styles.css">
+    <script defer src="/script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -63,9 +64,24 @@
       </p>
 
       <h2 class="projects-title">Projects</h2>
+
+      <fieldset id="projects-filter" class="projects-filters">
+        <legend class="visually-hidden">Filter by Tags</legend>
+        <label class="projects-filter">
+          <input type="checkbox" value="all" checked>
+          All
+        </label>
+        {{range .Tags}}
+          <label class="projects-filter">
+            <input type="checkbox" value="{{.}}">
+            {{.}}
+          </label>
+        {{end}}
+      </fieldset>
+
       <ul class="projects">
         {{range $index, $project := .Projects}}
-          <li class="project">
+          <li class="project js-project" data-tags="{{$project.Tags}}">
             <a
               href="{{if $project.DemoLink}}{{$project.DemoLink}}{{else}}{{$project.CodeLink}}{{end}}" 
               target="_blank"

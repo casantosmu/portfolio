@@ -5,7 +5,7 @@
     "img": "images/metal-tracker.webp",
     "codeLink": "https://github.com/casantosmu/metal-tracker",
     "demoLink": "https://github.com/casantosmu/metal-tracker/pkgs/container/metal-tracker",
-    "tags": ["Docker", "Testing", "Typescript", "SQLite", "CI/CD", "Testing"]
+    "tags": ["Docker", "Testing", "Typescript", "SQLite", "CI/CD"]
   },
   {
     "title": "Dotfiles",
@@ -13,7 +13,7 @@
     "img": "images/dotfiles.webp",
     "codeLink": "https://github.com/casantosmu/dotfiles",
     "demoLink": "",
-    "tags": ["Linux", "Zsh", "Shell", "Bash", "Automation"]
+    "tags": ["Linux", "Zsh", "Bash"]
   },
   {
     "title": "Code Notes",
@@ -21,15 +21,15 @@
     "img": "images/code-notes.webp",
     "codeLink": "https://github.com/casantosmu/code-notes",
     "demoLink": "https://code-notes.casantosmu.com",
-    "tags": ["Docs", "Docker", "CI/CD", "Linux"]
+    "tags": ["Docs", "Docker", "CI/CD"]
   },
   {
     "title": "Portfolio",
-    "description": "You're looking at it! My personal portfolio to showcase projects. Built from scratch using Go and minimal HTML/CSS. It's all about keeping things simple and effective!",
+    "description": "You're looking at it! My personal portfolio to showcase projects. Built from scratch using Go and minimal HTML/CSS/JS. It's all about keeping things simple and effective!",
     "img": "images/portfolio.webp",
     "codeLink": "https://github.com/casantosmu/portfolio",
     "demoLink": "https://casantosmu.com",
-    "tags": ["Go", "HTML", "CSS"]
+    "tags": ["Go", "HTML", "CSS", "JavaScript"]
   },
   {
     "title": "Nginx Config",
@@ -37,7 +37,7 @@
     "img": "images/nginx.webp",
     "codeLink": "https://github.com/casantosmu/nginx-casantosmu",
     "demoLink": "",
-    "tags": ["Nginx", "Ubuntu", "Cloudflare", "DevOps"]
+    "tags": ["Nginx", "Linux", "DevOps"]
   },
   {
     "title": "Home Server",
@@ -45,7 +45,7 @@
     "img": "images/home-server.webp",
     "codeLink": "https://github.com/casantosmu/home-server",
     "demoLink": "",
-    "tags": ["Ansible", "Docker", "Cloudflare", "DevOps", "Automation"]
+    "tags": ["Docker", "DevOps", "Linux"]
   },
   {
     "title": "Codewars JS",
@@ -53,6 +53,6 @@
     "img": "images/codewars-js.webp",
     "codeLink": "https://github.com/casantosmu/codewars-js",
     "demoLink": "https://github.com/casantosmu/codewars-js/blob/main/README.md",
-    "tags": ["JavaScript", "Katas", "Codewars", "Challenges"]
+    "tags": ["JavaScript", "Challenges"]
   }
 ]

@@ -17,12 +17,28 @@ type project struct {
 
 type data struct {
 	Projects []project
+	Tags     []string
 }
 
 func check(e error) {
 	if e != nil {
 		panic(e)
 	}
+}
+
+func uniqueTags(projects []project) []string {
+	tagSet := make(map[string]bool)
+	for _, project := range projects {
+		for _, tag := range project.Tags {
+			tagSet[tag] = true
+		}
+	}
+
+	tags := make([]string, 0, len(tagSet))
+	for tag := range tagSet {
+		tags = append(tags, tag)
+	}
+	return tags
 }
 
 func main() {
@@ -48,6 +64,7 @@ func main() {
 
 	data := data{
 		Projects: projects,
+		Tags:     uniqueTags(projects),
 	}
 
 	err = tmpl.Execute(f, data)
