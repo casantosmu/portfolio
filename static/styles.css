@@ -1,12 +1,12 @@
 :root {
-  --bg-body: #fff;
-  --bg-secondary: #f9f9f9;
+  --bg-body: #121212;
+  --bg-secondary: #1e1e1e;
 
-  --border: 1px solid #eaeaea;
+  --border: 1px solid #333;
 
-  --text-body: #000;
-  --text-primary: #007acc;
-  --text-secondary: #555;
+  --text-body: #e0e0e0;
+  --text-primary: #66b2ff;
+  --text-secondary: #aaa;
 
   --spacing-1: calc(var(--spacing-3) * 0.25);
   --spacing-2: calc(var(--spacing-3) * 0.5);
@@ -19,19 +19,6 @@
   --font-size-4: calc(var(--font-size-6) * 1.5);
   --font-size-5: calc(var(--font-size-6) * 1.25);
   --font-size-6: 1rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-body: #121212;
-    --bg-secondary: #1e1e1e;
-
-    --border: 1px solid #333;
-
-    --text-body: #e0e0e0;
-    --text-primary: #66b2ff;
-    --text-secondary: #aaa;
-  }
 }
 
 * {
