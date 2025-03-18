@@ -3,7 +3,9 @@ package main
 import (
 	"encoding/json"
 	"os"
+	"strconv"
 	"text/template"
+	"time"
 )
 
 type project struct {
@@ -18,6 +20,7 @@ type project struct {
 type data struct {
 	Projects []project
 	Tags     []string
+	Version  string
 }
 
 func check(e error) {
@@ -65,6 +68,7 @@ func main() {
 	data := data{
 		Projects: projects,
 		Tags:     uniqueTags(projects),
+		Version:  strconv.FormatInt(time.Now().Unix(), 10),
 	}
 
 	err = tmpl.Execute(f, data)
