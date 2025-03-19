@@ -68,12 +68,12 @@
       <fieldset id="projects-filter" class="projects-filters">
         <legend class="visually-hidden">Filter by Tags</legend>
         <label class="projects-filter">
-          <input type="checkbox" value="all" checked>
+          <input type="radio" name="tag-filter" class="visually-hidden" value="all" checked>
           All
         </label>
         {{range .Tags}}
           <label class="projects-filter">
-            <input type="checkbox" value="{{.}}">
+            <input type="radio" name="tag-filter" class="visually-hidden" value="{{.}}">
             {{.}}
           </label>
         {{end}}

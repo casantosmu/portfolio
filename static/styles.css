@@ -182,10 +182,6 @@ body {
   cursor: pointer;
 }
 
-.projects-filter input {
-  display: none;
-}
-
 .projects-filter:has(input:checked) {
   background-color: var(--text-primary);
   color: var(--bg-body);
